@@ -7,16 +7,17 @@ const ItemList = ({productos}) => {
       display: "flex",
       flexDirection: "row",
       flexWrap: "wrap",
-      gap: "10px",
+      gap: "15px",
+      paddingTop: "15px",
       justifyContent: "center"
     }}>
         {
           productos.map( (producto ) => (
             <Item producto={producto} key={producto.id} />
-           ))
+          ))
 }
-  </div> 
-  </div>  
+        </div> 
+              </div>  
   )
 }
 

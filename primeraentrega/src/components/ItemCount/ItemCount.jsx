@@ -20,8 +20,7 @@ const restar = () => {
         <button onClick={sumar}>+</button>
         <p>{contador}</p>
         <button onClick={restar}>-</button>
-{/*         <button onClick={}>Finalizar compra</button>
- */}    </div>
+    </div>
   )
 }
 
