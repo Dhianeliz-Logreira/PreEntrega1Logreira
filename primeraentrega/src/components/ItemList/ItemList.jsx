@@ -2,7 +2,7 @@ import Item from "../Item/Item"
 
 const ItemList = ({productos}) => {
   return (
-        <div>
+        <ul>
             <div style={{
       display: "flex",
       flexDirection: "row",
@@ -17,7 +17,7 @@ const ItemList = ({productos}) => {
           ))
 }
         </div> 
-              </div>  
+              </ul>  
   )
 }
 
