@@ -24,7 +24,6 @@ const Item = ({producto}) => {
     onMouseOver={handleMouseOver}
     onMouseLeave={handleMouseLeave}
     className="card ">
-    
                                   <img className="image" src={producto.imgUrl}  alt={producto.nombre} />
                                   <h6 className="titulo">{producto.titulo}</h6>
                                   <p> Autor: {producto.autor}</p>

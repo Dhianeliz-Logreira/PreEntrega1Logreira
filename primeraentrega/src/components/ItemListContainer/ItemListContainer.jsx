@@ -7,7 +7,7 @@ import db from "../../db/db"
 
 export const ItemListContainer = ({ greeting }) => {
   const [productos, setProductos] = useState([]);
-  const [cargando, setCargando] = useState(true)
+  const [cargando, setCargando] = useState(true);
 
   const { categoria } = useParams();
 
@@ -48,8 +48,8 @@ export const ItemListContainer = ({ greeting }) => {
 
       )}
     </>
-  )
-}
+  );
+};
 
 export default ItemListContainer;
 
